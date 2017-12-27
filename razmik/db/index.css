@@ -1,0 +1,55 @@
+#php label{
+	width:70px;
+	display:inline-block;
+
+}
+#login a:hover{
+	text-decoration:none;
+	text-shadow:1px 1px 3px black;
+}
+#login{
+	width:100px;
+	border:3px solid blue;
+	text-align:center;
+	background-color:#092868;
+	border-radius:5px;
+
+}
+#login a{
+	color:white;
+	box-shadow:1px 1px 1px black;
+	border-radius:5px;
+}
+#php {
+	border-radius:13px;
+	background-color:#baf45f;
+	width:300px;
+	border:5px solid;
+	margin-left:35%;
+	margin-top:15%;
+
+}
+#php input:last-child{
+	margin-left:30%;
+	margin-bottom:10px;
+}
+#php input {
+	background-color:#baf45f;
+}
+#php form{
+	margin-top:15px;
+	margin-left:10%;
+}
+body{
+	background-color:#a8e10e;
+}
+h3{
+	margin-top:3px;
+	margin-left:14%;
+}
+#php input:last-child:hover{
+	cursor:pointer;
+	background-color:#718b2d;
+	color:white;
+
+}

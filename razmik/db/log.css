@@ -1,0 +1,111 @@
+
+body{
+background-image:url("../image/agi.jpg");
+}
+#log img{
+
+	margin:-75px 0 -10px 0;
+	margin-left:27%;
+	width:120px;
+	height:120px;
+	border:5px solid blue;
+	border-radius:50%;
+	box-shadow:10px 0px 10px #2128a4;
+}
+.scaled::before{
+	transform:scaleX(1);
+	transform:.8s;
+}
+
+.scaled:hover {
+  transform: scaleX(-1);
+  transition:.8s;
+}
+#log {
+	max-width:100%;
+	box-sizing:border-box;
+	margin-left:40%;
+	margin-top:18%;
+	background-color:#1c4c87;
+
+}
+#log label{
+	    font: -webkit-control;
+	    font-weight:700;
+	color:white;
+	width:70px;
+	display:inline-block;
+}
+input[type="email"],input[type="password"]{
+	margin-left:10px;
+	text-align: center;
+	}
+#log input:hover{
+	border-radius:2px;
+	transition: all 0.5s;
+	border-color:#5277df;
+}
+#log a{
+	margin-left:48%;
+	text-decoration:none;
+	color:#1fb5f4;
+	font-size:1.10em;
+}
+#log a:hover{
+	text-decoration:underline;
+}
+#log{
+
+	border-radius:5px;
+	border:3px solid blue;
+	width:300px;
+	height:275px;
+}
+#log form{
+	margin-left:9%;
+	margin-top:10%;
+}
+#log button{
+	border:none;
+	border-bottom:3px solid #2ecef6;
+	transition:  0.7s;
+	color:white;
+	background-color:#095ec7;
+}
+#log button:hover{
+
+	border-radius:4px;
+	cursor:pointer;
+	background-color:#1c4c87;
+		border-left: 1px solid #2ecef6;
+	border-right:1px solid #2ecef6;
+	border-top:1px solid #2ecef6;
+}
+.dws-social{
+
+	margin-top:15px;
+	margin-left:14%;
+}
+.dws-social i{
+ color: #fff;
+ font-size: 20px;
+ width: 20px;
+ padding: 10px;
+}
+.dws-social i:hover{
+	transition: all 0.5s;
+ background-color: #fff;
+ color: #1c4c87;
+ border-radius: 50%;
+ cursor: pointer;
+}
+#php{
+	padding:5px;
+	margin-top:5%;
+	margin-left:75%;
+	text-align:center;
+	border:2px solid;
+	border-radius:3px;
+	width:25%;
+	height:20%;
+}
